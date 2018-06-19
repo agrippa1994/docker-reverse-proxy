@@ -35,3 +35,8 @@ volumes:
   html:
   dhparam:
   certs:
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
